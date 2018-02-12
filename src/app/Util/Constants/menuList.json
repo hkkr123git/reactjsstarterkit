@@ -1,0 +1,114 @@
+{
+    "user" :[
+                {
+                    "icon": "dashboard",
+                    "text": "Dashboard",
+                    "path": "/dashboard"
+                },
+                {
+                    "icon": "directions_run",
+                    "text": "Activity",
+                    "path": "/activities"
+                },
+                {
+                    "icon": "record_voice_over",
+                    "text": "Voices",
+                    "path": "/voices"
+                },
+                {
+                    "icon": "group",
+                    "text": "Meetings",
+                    "path": "/meetings"
+                },
+                {
+                    "icon": "poll",
+                    "text": "Polls",
+                    "path": "/polls"
+                }
+    ],
+    "admin" :[
+                {
+                    "icon": "home",
+                    "text": "Back to home",
+                    "path": "/dashboard",
+                    "desc":""
+                },
+                {
+                    "icon": "directions_run",
+                    "text": "Activities",
+                    "path": "/admin/activities",
+                    "privilage": "VIEW_ACTIVITY",
+                    "desc":"Activities assigned to your club/council"
+                },
+                {
+                    "icon": "directions_walk",
+                    "text": "Activity Master",
+                    "path": "/admin/activity/master",
+                    "privilage": "VIEW_ALL_MASTER_ACTIVITY",
+                    "desc":"Activity Master data from which Activities are assigned"
+                },
+                {
+                    "icon": "date_range",
+                    "text": "Meetings",
+                    "path": "/admin/meetings",
+                    "privilage": "VIEW_MEETING",
+                    "desc":"Manage all/club meetings relevant to you"
+                },
+                {
+                    "icon": "record_voice_over",
+                    "text": "Voices",
+                    "path": "/admin/voices",
+                    "privilage": "VIEW_VOICE",
+                    "desc":"Voices related to your club/council"
+                },
+                {
+                    "icon": "group",
+                    "text": "Users",
+                    "path": "/admin/users",
+                    "privilage": "VIEW_USER",
+                    "desc":"Manage all users"
+                },
+                {
+                    "icon": "picture_as_pdf",
+                    "text": "Report",
+                    "path": "/admin/report",
+                    "privilage": "",
+                    "desc":"Generate various reports"
+                },
+                {
+                    "icon": "store",
+                    "text": "Clubs",
+                    "path": "/admin/clubs",
+                    "privilage": "VIEW_CLUB",
+                    "desc":"Manage all clubs"
+                },
+                {
+                    "icon": "group",
+                    "text": "Council",
+                    "path": "/admin/councils",
+                    "privilage": "VIEW_COUNCIL",
+                    "desc":"Manage all councils"
+                },
+                {
+                    "icon": "poll",
+                    "text": "Polls",
+                    "path": "/admin/polls",
+                    "privilage": "VIEW_POLL",
+                    "desc":"Manage polls relevant to you"
+                },
+                {
+                    "icon": "grain",
+                    "text": "Points",
+                    "path": "/admin/points",
+                    "privilage": "MANAGE_POINTS",
+                    "desc":"Manage points of users"
+                },
+                {
+                    "icon": "backup",
+                    "text": "Bulk Upload",
+                    "path": "/admin/bulkupload",
+                    "privilage": "",
+                    "desc":"Bulk upload of activities, users etc..."
+                }
+    ]
+}
